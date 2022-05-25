@@ -8,7 +8,7 @@ jobs:
       - name: Setting up JDK 1.8 (default JDK)
         uses: actions/setup-java@v3
         with:
-          java-version: '1.8'
+          java-version: '8'
           distribution: 'adopt'
       - name: Temp - Build w. maven just so I can test if ghub-actions works w. local repos (no caching)
         uses: gradle/gradle-build-action@v2
