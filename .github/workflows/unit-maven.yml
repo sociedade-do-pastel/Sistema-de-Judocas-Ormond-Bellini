@@ -1,0 +1,12 @@
+name: Test-all
+on: push
+jobs:
+  test-all:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setting up JDK 1.8 (default JDK)
+        uses: actions/setup-java@v3
+      - name: Temp - Build w. maven just so I can test if ghub-actions works w. local repos (no caching)
+        uses: gradle/gradle-build-action@v2
+      - run: mvn compile
