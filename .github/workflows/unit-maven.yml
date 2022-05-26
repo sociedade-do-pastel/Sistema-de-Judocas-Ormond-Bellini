@@ -11,5 +11,4 @@ jobs:
           java-version: '8'
           distribution: 'adopt'
       - name: Temp - Build w. maven just so I can test if ghub-actions works w. local repos (no caching)
-        uses: gradle/gradle-build-action@v2
-      - run: mvn compile
+      - run: mvn test
