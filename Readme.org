@@ -1,0 +1,15 @@
+#+title: Bem vindo ao projeto de Simulação e Testes de /Software/
+
+O projeto foi originalmente desenvolvido por [[https://github.com/aecio][Aecio Santos]] como projeto final do curso de Análise e Desenvolvimento de seu curso. As seguintes adaptações foram realizadas:
+
+1. Projeto migrado para o /build system/ Maven por meio do /plugin/ e2m do *Eclipse*
+2. Adicionado =pom.xml=
+3. Instaladas depêndencias para o formato "local" do Maven em =src/main/resources/repo=
+4. Movido =test= da raiz do projeto para =src/test=
+5. Movido projeto para o formato do Maven, =src/main/java=
+6. Adaptado projeto para *github actions*
+
+* Links relevantes
+
+- [[https://github.com/sociedade-do-pastel/Sistema-de-Judocas-Ormond-Bellini/wiki][wiki]]
+- [[https://github.com/sociedade-do-pastel/Sistema-de-Judocas-Ormond-Bellini/issues][Controle de issues]]
