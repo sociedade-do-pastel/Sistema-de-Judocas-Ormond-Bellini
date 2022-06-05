@@ -13,3 +13,9 @@ O projeto foi originalmente desenvolvido por [[https://github.com/aecio][Aecio S
 
 - [[https://github.com/sociedade-do-pastel/Sistema-de-Judocas-Ormond-Bellini/wiki][wiki]]
 - [[https://github.com/sociedade-do-pastel/Sistema-de-Judocas-Ormond-Bellini/issues][Controle de issues]]
+
+* Membros do grupo
+
+| Nome                     |         RA |
+| Leon Ferreira Bellini    | 22218002-8 |
+| Guilherme Ormond Sampaio | 22218007-7 |
